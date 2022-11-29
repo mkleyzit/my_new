@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<TestModel Version="5.7.8367">
+  <TestCase Id="e34b8587-d454-4d00-b61d-1ed60a71059a" RecordedOn="2022-11-29T12:28:25.6034451-05:00" Name="aaaaaa" ThinkTime="0" MixWeight="1" />
+  <KPICounters>
+    <KPICounter Name="Requests/Sec" />
+    <KPICounter Name="Avg. Response (s)" />
+    <KPICounter Name="KB Received/Sec" />
+    <KPICounter Name="Errors/Sec" />
+    <KPICounter Name="Pending Requests" />
+    <KPICounter Name="Total Transactions/Sec" />
+  </KPICounters>
+  <Agents>
+    <Agent Name="Local" Host="MAX-PC-2" UserName="" CreateMonitors="Yes" />
+  </Agents>
+  <TestConfigurations>
+    <TestConfiguration TestID="53485fbf-8f30-40dd-bf6b-228af8d9bde9" CurrentTestCase="e34b8587-d454-4d00-b61d-1ed60a71059a" DataStorageMedium="SQLite" IsCurrent="true">
+      <MixWeights LoadGenMixWeights="Local:1" TestObjectMixWeights="aaaaaa:1" TestObjectTier="aaaaaa:0" />
+      <Browsers>
+        <Browser Name="Chrome 64.0" MaxHostConnections="6" MaxTotalConnections="6" ReplaceUserAgent="false" UserAgentString="Mozilla/5.0 (Windows NT 6.1; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36" />
+      </Browsers>
+      <Networks>
+        <Network Name="Gigabit Ethernet" UploadBandwith="1000000" DownloadBandwith="1000000" />
+      </Networks>
+    </TestConfiguration>
+  </TestConfigurations>
+</TestModel>
